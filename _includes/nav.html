@@ -1,0 +1,47 @@
+<nav class="nav-wrapper">
+    <div class="container">
+        <a href="{{ site.github.url | prepend: site.url }}/" class="brand-logo">{{ site.title }}</a>
+        
+        <ul class="right hide-on-med-and-down">
+            <li>
+                <a href="http://fb.com/{{ site.facebook }}" target="_blank" class="btn-floating btn-flat">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://twitter.com/{{ site.twiiter.username }}" target="_blank" class="btn-floating btn-flat">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </li>
+            <li>
+                <a href="http://github.com/{{ site.github }}" target="_blank" class="btn-floating btn-flat">
+                    <i class="fa fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <a href="#" data-activates="side-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+    
+    <div class="container">
+        <ul id="side-nav" class="side-nav fixed">
+            <li class="active">
+                <a href="{{ site.github.url | prepend: site.url }}/"><i class="fa fa-home"></i></a>
+            </li>
+            <li>
+                <a href="#portfolio" title="Portfólio">Portfólio</a>
+            </li>
+            <li>
+                <a href="#servicos" title="Serviços">Serviços</a>
+            </li>
+            <li>
+                <a href="#capacidades" title="Capacidades">Capacidades</a>
+            </li>
+            <li>
+                <a href="#sobre" title="Sobre mim"><i class="fa fa-user"></i>Sobre mim</a>
+            </li>
+            <li>
+                <a href="{{ site.github.url | prepend: site.url }}/blog/" title="Meu blog">Blog</a>
+            </li>
+        </ul>
+    </div>
+</nav>
