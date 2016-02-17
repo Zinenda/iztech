@@ -7,3 +7,5 @@ layout: default
 {% include header.html %}
 
 {% include portfolio.html %}
+
+{% include servicos.html %}
