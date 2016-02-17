@@ -16,6 +16,9 @@ deploy:
 # Build settings
 markdown: kramdown
 
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 sass:
     sass_dir: assets/_sass
     style: compressed
