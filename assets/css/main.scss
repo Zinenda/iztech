@@ -16,7 +16,7 @@ html, body {
     flex-direction: column;
     font-family: "Lato", sans-serif;
     font-weight: normal;
-    color: #7f8c8d;
+    color: #000;
     overflow-x: hidden;
 }
 
@@ -49,6 +49,7 @@ a {
 
 .icon-block {
   padding: 0 15px;
+  color: $primary-color;
 }
 .icon-block i {
   font-size: inherit;

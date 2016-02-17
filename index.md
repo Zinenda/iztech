@@ -9,3 +9,5 @@ layout: default
 {% include portfolio.html %}
 
 {% include servicos.html %}
+
+{% include sobre.html %}
