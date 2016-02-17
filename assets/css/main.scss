@@ -2,3 +2,82 @@
 ---
 
 @charset "utf-8";
+
+$primary-color: #c0392b !default;
+$primary-color-light: lighten($primary-color, 15%) !default;
+$primary-color-dark: darken($primary-color, 15%) !default;
+$secondary-color: rgba(192, 57, 43,.6) !default;
+$link-color: #d35400 !default;
+$footer-bg-color: #000 !default;
+
+html, body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    color: #7f8c8d;
+    overflow-x: hidden;
+}
+
+main, section, article {
+    flex: 1 0 auto;
+}
+
+header, main, footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $link-color;
+    &:hover {
+        text-decoration: underline;
+        color: #00B5B5;
+    }
+}
+
+.inline-list {
+    display: inline-flex;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block i {
+  font-size: inherit;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+}
+
+
+footer.page-footer {
+    margin: 0;
+    color: #fff;
+}
+
+@import 
+    "materialize",
+    "font-awesome"
+;
