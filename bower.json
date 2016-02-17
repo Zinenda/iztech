@@ -1,0 +1,24 @@
+{
+  "name": "iztech",
+  "authors": [
+    "Ivo Zinenda <izinenda@outlook.com>"
+  ],
+  "description": "Desenvolvendo a web",
+  "main": "assets",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "http://zinenda.github.io/iztech",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#^0.97.5",
+    "font-awesome": "^4.5.0",
+    "animate-sass": "^0.6.6",
+    "motion-ui": "^1.2.1"
+  }
+}
