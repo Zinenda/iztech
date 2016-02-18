@@ -78,6 +78,17 @@ footer.page-footer {
     color: #fff;
 }
 
+.post-header {
+    background-color: $primary-color-dark;
+    background-size: cover;
+    height: 200px;
+    
+    article.container {
+        background-color: #fff;
+        color: #000;
+    }
+}
+
 @import 
     "materialize",
     "font-awesome"

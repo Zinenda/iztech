@@ -3,57 +3,14 @@ layout: default
 permalink: /blog
 ---
 
-<nav class="nav-wrapper">
-    <div class="container">
-        <a href="{{ site.github.url | prepend: site.url }}/" class="brand-logo">{{ site.title }}</a>
-        
-        <ul class="right hide-on-med-and-down">
-            <li>
-                <a href="http://fb.com/{{ site.facebook }}" target="_blank" class="btn-floating btn-flat">
-                    <i class="fa fa-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="http://twitter.com/{{ site.twiiter.username }}" target="_blank" class="btn-floating btn-flat">
-                    <i class="fa fa-twitter"></i>
-                </a>
-            </li>
-            <li>
-                <a href="http://github.com/{{ site.github }}" target="_blank" class="btn-floating btn-flat">
-                    <i class="fa fa-github"></i>
-                </a>
-            </li>
-        </ul>
-    </div>
-    <a href="#" data-activates="side-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
-    
-    <div class="container">
-        <ul id="side-nav" class="side-nav fixed">
-            <li class="active">
-                <a href="{{ site.github.url | prepend: site.url }}/"><i class="fa fa-home"></i></a>
-            </li>
-            <li>
-                <a href="{{ site.github.url | prepend: site.url }}/#portfolio" title="Portfólio">Portfólio</a>
-            </li>
-            <li>
-                <a href="{{ site.github.url | prepend: site.url }}/#servicos" title="Serviços">Serviços</a>
-            </li>
-            <li>
-                <a href="{{ site.github.url | prepend: site.url }}/#sobre" title="Sobre mim"><i class="fa fa-user"></i>Sobre mim</a>
-            </li>
-            <li>
-                <a href="blog.html" title="Meu blog">Blog</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+{% include side-nav.html %}
 
 <div class="container">
     {% for post in site.posts %}
         <article class="col s12 l4">
             <div class="card hoverable">
                 <div class="card-image">
-                    <img src="{{ post.image | prepend: site.url }}" alt="{{ post.title }}" class="responsive">
+                    <img src="{{ post.image | prepend: site.image }}" alt="{{ post.title }}" class="responsive">
                 </div>
                 <div class="card-content">
                     Publicado: {{ post.author }}
