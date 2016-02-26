@@ -89,6 +89,35 @@ footer.page-footer {
     }
 }
 
+hr.star {
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+hr.star:after {
+    content: "\f005";
+    display: inline-block;
+    position: relative;
+    top: -.8em;
+    padding: 0 .25em;
+    font-family: FontAwesome;
+    font-size: 2em;
+}
+
+hr.star {
+    border-color: $primary-color;
+}
+
+hr.star:after {
+    color: $primary-color-dark;
+    background-color: #fff;
+}
+
+
 @import 
     "materialize",
     "font-awesome"
