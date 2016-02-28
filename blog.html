@@ -10,11 +10,11 @@ permalink: /blog/
         <article class="col s12 l4">
             <div class="card hoverable">
                 <div class="card-image">
-                    <img src="{{ post.image | prepend: site.image }}" alt="{{ post.title }}" class="responsive">
+                    <img src="{{ post.image | prepend: site.image }}" alt="{{ post.title }}" class="responsive-img">
                 </div>
                 <div class="card-content">
-                    Publicado: {{ post.author }}
-                    Categoria: {{ post.category }}
+                    Publicado: {{ site.author }} <br>
+                    Categoria: {{ post.category }} <br>
                     Postado: <time datetime="{{ post.date }}">{{ post.date | date_to_string }}</time>
                 </div>
                 <div class="card-action">
