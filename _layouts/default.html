@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="pt">
+<!--[if lt IE 7]>      <html dir="ltr" class="no-js lt-ie9 lt-ie8 lt-ie7" lang="pt"> <![endif]-->
+<!--[if IE 7]>         <html dir="ltr" class="no-js lt-ie9 lt-ie8" lang="pt"> <![endif]-->
+<!--[if IE 8]>         <html dir="ltr" class="no-js lt-ie9" lang="pt"> <![endif]-->
+<!--[if gt IE 8]><!--> <html dir="ltr" class="no-js" lang="pt"> <!--<![endif]-->
     {% include head.html %}
     
     <body id="page-top" class="scrollspy">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
         <main>
             {{ content }}
         </main>
