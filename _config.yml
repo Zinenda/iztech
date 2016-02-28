@@ -11,16 +11,12 @@ google: +IvoZinenda
 linkedin: zinendajerk
 author: Ivo Zinenda
 
-deploy:
-- rsync -aze ssh --delete ./ https://github.com/Zinenda/iztech.git
-
 # Build settings
 markdown: kramdown
 
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-deploy
 sass:
     sass_dir: assets/_sass
     style: compressed
