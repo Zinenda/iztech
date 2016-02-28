@@ -43,6 +43,10 @@ a {
     }
 }
 
+.side-nav a:hover {
+    background: $primary-color;
+}
+
 .inline-list {
     display: inline-flex;
 }
