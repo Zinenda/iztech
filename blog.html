@@ -10,7 +10,7 @@ permalink: /blog/
         <article class="col s12 l4">
             <div class="card hoverable">
                 <div class="card-image">
-                    <img src="{{ post.image | prepend: site.image }}" alt="{{ post.title }}" class="responsive-img">
+                    <img src="{{ site.github.url | prepend: site.url }}{{ post.image }}" alt="{{ post.title }}" class="responsive-img">
                 </div>
                 <div class="card-content">
                     Publicado: {{ site.author }} <br>
