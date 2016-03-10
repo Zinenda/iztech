@@ -42,9 +42,18 @@ a {
         color: #00B5B5;
     }
 }
-
+a.brand-logo:hover {
+    text-decoration: none;
+}
 .side-nav a:hover {
+    text-decoration: none;
     background: $primary-color;
+    i {
+        color: #fff;
+    }
+    b {
+        color: #fff;
+    }
 }
 
 .inline-list {
@@ -64,6 +73,7 @@ a {
     line-height: 0;
     height: auto;
     color: rgba(255,255,255,.9);
+    width: 100%;
 }
 
 .parallax-container .section {
@@ -77,6 +87,13 @@ a {
     }
 }
 
+.author img {
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+    float: left;
+}
+
 footer.page-footer {
     margin: 0;
     color: #fff;
@@ -85,11 +102,9 @@ footer.page-footer {
 .post-header {
     background-color: $primary-color-dark;
     background-size: cover;
-    height: 200px;
-    
-    article.container {
-        background: #fff;
-    }
+    max-height: 300px;
+    height: 100%;
+    color: #fff;
 }
 
 hr.star {

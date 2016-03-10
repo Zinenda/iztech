@@ -5,18 +5,15 @@ layout: default
 {% include side-nav.html %}
 
 <div class="post-header">
-    <article class="container">
-        <h1>{{ page.title }}</h1>
-        <h4>Publicado por: <a rel="author" href="http://twitter.com/{{ site.twitter.username }}">{{ site.author }}</a></h4>
-    </article>
+    <div class="container">
+        <h1 class="light">{{ page.title }}</h1>
+        <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
+        <h4 class="light">Publicado por: <a rel="author" href="http://twitter.com/{{ site.twitter.username }}">{{ site.author }}</a></h4>
+    </div>
 </div>
-
+<br>
 <article class="container">
-    <h5 class="light">
-            <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
-        </h5>
         <img src="{{ site.github.url | prepend: site.url }}{{ page.image }}" alt="{{ page.title }}" class="responsive-img materialboxed">
         <hr>
-        <br>
         {{ content }}
 </article>
