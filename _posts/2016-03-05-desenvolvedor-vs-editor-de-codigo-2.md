@@ -30,7 +30,7 @@ Então aos digitadores de código, não sintam se mal pelo que leram neste artig
 Recomendo-vos assistir o vídeo a seguir para melhor entendimento.
 
 <div class="video-container">
-    <iframe src="{{ site.github.url | prepend: site.url }}/assets/img/posts/Programador.mp4" autoplay="false" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/61wLG5-7npM" frameborder="0" allowfullscreen></iframe>
 </div>
 
 Fonte do video: [RBTech](http://rbtech.info)
