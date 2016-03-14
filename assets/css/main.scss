@@ -45,6 +45,15 @@ a {
 a.brand-logo:hover {
     text-decoration: none;
 }
+
+.side-nav i {
+    margin-right: 7px;
+}
+
+nav ul li {
+    padding: 0;
+}
+
 .side-nav a:hover {
     text-decoration: none;
     background: $primary-color;
@@ -133,6 +142,11 @@ hr.star {
 hr.star:after {
     color: $primary-color-dark;
     background-color: #fff;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
 }
 
 
