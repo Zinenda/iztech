@@ -46,6 +46,16 @@ a.brand-logo:hover {
     text-decoration: none;
 }
 
+.page-header {
+    background-color: $primary-color;
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+    padding-top: 2rem;
+    z-index: -1;
+    perspective: 1px;
+}
+
 .side-nav i {
     margin-right: 7px;
 }
