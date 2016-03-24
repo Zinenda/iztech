@@ -9,4 +9,6 @@ layout: default
 
 {% include servicos.html %}
 
+{% include precos.html %}
+
 {% include sobre.html %}
