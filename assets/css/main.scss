@@ -52,13 +52,11 @@ p {
 }
 
 .page-header {
-    background-color: $primary-color;
+    background-color: #333;
     background-size: cover;
     min-height: 700px;
     width: 100%;
     padding-top: 2rem;
-    z-index: -1;
-    perspective: 1px;
 }
 
 .side-nav i {
@@ -119,6 +117,7 @@ nav ul li {
     padding-left: 350px;
 }
 
+
 footer.page-footer {
     color: #fff;
 }
@@ -167,6 +166,18 @@ hr {
 #map {
     max-width: 100%;
     max-height: 500px;
+}
+
+.background {
+    background-color: $primary-color;
+}
+
+.no-visibility {
+    display: none;
+}
+
+.no-padding {
+    padding: 0;
 }
 
 @import
