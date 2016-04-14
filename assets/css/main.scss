@@ -67,6 +67,14 @@ nav ul li {
     padding: 0;
 }
 
+article#post {
+    padding-bottom: 50px;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .side-nav a:hover {
     text-decoration: none;
     background: $primary-color;
