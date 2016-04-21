@@ -1,38 +1,20 @@
-<section id="sobre">
-    <section class="container">
-        <h2 class="center light">Sobre</h2>
-        <hr class="star">
-        <article>
-            <div class="center">
-                <a href="{{ site.github.io | prepend: site.url }}/assets/documentos/cv.pdf" target="_blank" title="Curriculum Vitae" class="btn red center"><i class="fa fa-file-pdf-o"></i> Curriculum Vitae</a>
-            </div>
-            <div class="author">
-                <img src="{{ site.github.io | prepend: site.url }}/assets/img/sobre/author.jpg" alt="Ivo Zinenda" class="responsive-img">
-            </div>
-            <div class="author-contacts hide-on-med-and-down">
-                <ul class="inline-list">
-                    <li><a href="http://facebook.com/{{ site.facebook }}" class="btn-floating indigo"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="http://twitter.com/{{ site.twitter.username }}" class="btn-floating blue accent-4"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="http://plus.google.com/{{ site.google }}" class="btn-floating red accent-4"><i class="fa fa-google-plus"></i></a></li>
-                    <li><a href="http://linkedin.com/{{ site.linkedin }}" class="btn-floating blue darken-4"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="http://github.com/{{ site.github }}" class="btn-floating grey lighten-2"><i class="fa fa-github"></i></a></li>
-                </ul>
-            </div>
-            <hr>
-            <p class="light">
-                <i class="fa fa-quote-left fa-pull-left"></i><a rel="author" href="http://twitter.com/{{ site.twitter.username }}">{{ site.author }}</a>, estudante de informática no Instituto Médio Politécnico de Tete, A Politécnica. <br>
-                Nascido aos 30 de Janeiro de 1997, em Songo, Tete, Moçambique. <br>
-                Fascinado pelo desenvolvimento web desde meados de 2014. Tempo em que a web estava em passando por um atualização nas tecnologias que nelas aplicam-se.
-                Desde os protocolos à linguages de marcação e programação. <br>
-                A migração ao HTML5 E CSS3, a popularização dos frameworks front-end e a filosófia do Design Responsivo. <br>
-                Mais Linguagens de programação a destacarem-se no desenvolvimento web, como o Ruby com o Ruby On Rails e NodeJS. <br>
-                Novos conceitos de tipográfia e muito mais. A WWW estava modernizando-se. <br><br>
-                Seja estudante, entidade empresarial, ou comerciante e deseja ter seu próprio portal na internet, seja pessoal ou para negócios, não exite em contactar-me.<i class="fa fa-quote-right"></i>
-            </p>
-        </article>
-    </section><!-- section container -->
-</section>
-
-<div class="parallax-container">
-    <div class="parallax"><img src="assets/img/parallax/skyline.jpg" alt="Parallax"></div>
-</div>
+<article class="container">
+    <img src="{{ site.github.io | prepend: site.url }}/assets/img/sobre/author.jpg" alt="Ivo Zinenda" id="author" class="responsive-img rounded center">
+    <p>
+        <i class="fa fa-quote-left fa-pull-left"></i><a rel="author" href="http://twitter.com/{{ site.twitter.username }}">{{ site.author }}</a>, estudante de informática no Instituto Médio Politécnico de Tete, A Politécnica. <br>
+        Nascido aos 30 de Janeiro de 1997, em Songo, Tete, Moçambique. <br>
+        Fascinado pelo desenvolvimento web desde meados de 2014. Tempo em que a web estava em passando por um atualização nas tecnologias que nelas aplicam-se.
+        Desde os protocolos à linguages de marcação e programação. <br>
+        A migração ao HTML5 E CSS3, a popularização dos frameworks front-end e a filosófia do Design Responsivo. <br>
+        Mais Linguagens de programação a destacarem-se no desenvolvimento web, como o Ruby com o Ruby On Rails e NodeJS. <br>
+        Novos conceitos de tipográfia e muito mais. A WWW estava modernizando-se. <br><br>
+        Seja estudante, entidade empresarial, ou comerciante e deseja ter seu próprio portal na internet, seja pessoal ou para negócios, não exite em contactar-me.<i class="fa fa-quote-right"></i>
+    </p>
+    <ul class="inline-list">
+        <li><a href="http://facebook.com/{{ site.facebook }}" class="btn-floating indigo"><i class="fa fa-facebook fa-5x"></i></a></li>
+        <li><a href="http://twitter.com/{{ site.twitter.username }}" class="btn-floating blue accent-4"><i class="fa fa-twitter  fa-5x"></i></a></li>
+        <li><a href="http://plus.google.com/{{ site.google }}" class="btn-floating red accent-4"><i class="fa fa-google-plus fa-5x"></i></a></li>
+        <li><a href="http://linkedin.com/{{ site.linkedin }}" class="btn-floating blue darken-4"><i class="fa fa-linkedin fa-5x"></i></a></li>
+        <li><a href="http://github.com/{{ site.github }}" class="btn-floating grey lighten-2"><i class="fa fa-github fa-5x"></i></a></li>
+    </ul>
+</article>

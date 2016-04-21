@@ -5,18 +5,13 @@
 <!--[if gt IE 8]><!--> <html dir="ltr" class="no-js" lang="pt"> <!--<![endif]-->
     {% include head.html %}
     
-    <body id="page-top" class="scrollspy">
+    <body id="page-top">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <main>
-            {{ content }}
-        </main>
         
-        {% include footer.html %}
-        
-        {% include fab-btn.html %}
-        
+        {{ content }}
+
         {% include scripts.html %}
     </body>
 </html>
