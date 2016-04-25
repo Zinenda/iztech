@@ -47,7 +47,7 @@ Navigation
 
 .cd-side-navigation {
 	position: fixed;
-	z-index: 3;
+	z-index: 10;
 	top: 0;
 	left: 0;
 	height: 100vh;
@@ -67,7 +67,7 @@ Navigation
 
 	ul {
 		height: 100%;
-		overflow-y: auto;
+		overflow: hidden;
 		-webkit-overflow-scrolling: touch;
 	}
 
@@ -305,6 +305,14 @@ Navigation
 	opacity: 0;
 	@include transform(translateY(-50%) translateX(-80px));
 	@include transition(transform 0s $animation-duration, opacity 0s $animation-duration);
+	
+	h1 {
+		font-size: 6rem;
+		font-weight: 800;
+		margin: auto;
+		color: $primary-color;
+		text-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
 
 	h2 {
 		font-size: 2.8rem;
@@ -413,6 +421,12 @@ img#author {
 
 .icon-block {
 	color: $primary-color;
+}
+
+#resumo {
+	margin: auto;
+	padding: auto;
+	border-radius: 50rem;
 }
 
 @import
